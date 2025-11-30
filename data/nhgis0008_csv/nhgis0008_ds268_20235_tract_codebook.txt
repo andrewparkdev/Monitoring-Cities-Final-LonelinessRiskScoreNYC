@@ -1,0 +1,431 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0008_ds268_20235_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2019-2023
+Geographic level: Census Tract (by State--County)
+Extent:           New York
+Dataset:          2023 American Community Survey: 5-Year Data [2019-2023, Tracts & Larger Areas]
+   NHGIS code:    2019_2023_ACS5b
+   NHGIS ID:      ds268
+Breakdown(s):     Geographic Component:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Household Size by Vehicles Available
+   Universe:    Households
+   Source code: B08201
+   NHGIS code:  AS3P
+ 
+2. Poverty Status in the Past 12 Months by Sex by Age
+   Universe:    Population for whom poverty status is determined
+   Source code: B17001
+   NHGIS code:  AS6W
+ 
+3. Sex by Age by Disability Status
+   Universe:    Civilian noninstitutionalized population
+   Source code: B18101
+   NHGIS code:  AS78
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian/Hawaiian Home Land Trust Land Indicator
+        AITSA:       Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        CNECTA:      New England City and Town Combined Statistical Area
+        NECTADIV:    New England City and Town Area Division
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2023-2025, 118th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEO_ID:      Census Geographic Area Identifier
+        BTTRA:       Tribal Census Tract Code
+        TL_GEO_ID:   TIGER/Line Shapefile Geographic Area Identifier
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Household Size by Vehicles Available
+    Universe:    Households
+    Source code: B08201
+    NHGIS code:  AS3P
+        AS3PE001:    Total
+        AS3PE002:    No vehicle available
+        AS3PE003:    1 vehicle available
+        AS3PE004:    2 vehicles available
+        AS3PE005:    3 vehicles available
+        AS3PE006:    4 or more vehicles available
+        AS3PE007:    1-person household
+        AS3PE008:    1-person household: No vehicle available
+        AS3PE009:    1-person household: 1 vehicle available
+        AS3PE010:    1-person household: 2 vehicles available
+        AS3PE011:    1-person household: 3 vehicles available
+        AS3PE012:    1-person household: 4 or more vehicles available
+        AS3PE013:    2-person household
+        AS3PE014:    2-person household: No vehicle available
+        AS3PE015:    2-person household: 1 vehicle available
+        AS3PE016:    2-person household: 2 vehicles available
+        AS3PE017:    2-person household: 3 vehicles available
+        AS3PE018:    2-person household: 4 or more vehicles available
+        AS3PE019:    3-person household
+        AS3PE020:    3-person household: No vehicle available
+        AS3PE021:    3-person household: 1 vehicle available
+        AS3PE022:    3-person household: 2 vehicles available
+        AS3PE023:    3-person household: 3 vehicles available
+        AS3PE024:    3-person household: 4 or more vehicles available
+        AS3PE025:    4-or-more-person household
+        AS3PE026:    4-or-more-person household: No vehicle available
+        AS3PE027:    4-or-more-person household: 1 vehicle available
+        AS3PE028:    4-or-more-person household: 2 vehicles available
+        AS3PE029:    4-or-more-person household: 3 vehicles available
+        AS3PE030:    4-or-more-person household: 4 or more vehicles available
+ 
+    Table 2:     Poverty Status in the Past 12 Months by Sex by Age
+    Universe:    Population for whom poverty status is determined
+    Source code: B17001
+    NHGIS code:  AS6W
+        AS6WE001:    Total
+        AS6WE002:    Income in the past 12 months below poverty level
+        AS6WE003:    Income in the past 12 months below poverty level: Male
+        AS6WE004:    Income in the past 12 months below poverty level: Male: Under 5 years
+        AS6WE005:    Income in the past 12 months below poverty level: Male: 5 years
+        AS6WE006:    Income in the past 12 months below poverty level: Male: 6 to 11 years
+        AS6WE007:    Income in the past 12 months below poverty level: Male: 12 to 14 years
+        AS6WE008:    Income in the past 12 months below poverty level: Male: 15 years
+        AS6WE009:    Income in the past 12 months below poverty level: Male: 16 and 17 years
+        AS6WE010:    Income in the past 12 months below poverty level: Male: 18 to 24 years
+        AS6WE011:    Income in the past 12 months below poverty level: Male: 25 to 34 years
+        AS6WE012:    Income in the past 12 months below poverty level: Male: 35 to 44 years
+        AS6WE013:    Income in the past 12 months below poverty level: Male: 45 to 54 years
+        AS6WE014:    Income in the past 12 months below poverty level: Male: 55 to 64 years
+        AS6WE015:    Income in the past 12 months below poverty level: Male: 65 to 74 years
+        AS6WE016:    Income in the past 12 months below poverty level: Male: 75 years and over
+        AS6WE017:    Income in the past 12 months below poverty level: Female
+        AS6WE018:    Income in the past 12 months below poverty level: Female: Under 5 years
+        AS6WE019:    Income in the past 12 months below poverty level: Female: 5 years
+        AS6WE020:    Income in the past 12 months below poverty level: Female: 6 to 11 years
+        AS6WE021:    Income in the past 12 months below poverty level: Female: 12 to 14 years
+        AS6WE022:    Income in the past 12 months below poverty level: Female: 15 years
+        AS6WE023:    Income in the past 12 months below poverty level: Female: 16 and 17 years
+        AS6WE024:    Income in the past 12 months below poverty level: Female: 18 to 24 years
+        AS6WE025:    Income in the past 12 months below poverty level: Female: 25 to 34 years
+        AS6WE026:    Income in the past 12 months below poverty level: Female: 35 to 44 years
+        AS6WE027:    Income in the past 12 months below poverty level: Female: 45 to 54 years
+        AS6WE028:    Income in the past 12 months below poverty level: Female: 55 to 64 years
+        AS6WE029:    Income in the past 12 months below poverty level: Female: 65 to 74 years
+        AS6WE030:    Income in the past 12 months below poverty level: Female: 75 years and over
+        AS6WE031:    Income in the past 12 months at or above poverty level
+        AS6WE032:    Income in the past 12 months at or above poverty level: Male
+        AS6WE033:    Income in the past 12 months at or above poverty level: Male: Under 5 years
+        AS6WE034:    Income in the past 12 months at or above poverty level: Male: 5 years
+        AS6WE035:    Income in the past 12 months at or above poverty level: Male: 6 to 11 years
+        AS6WE036:    Income in the past 12 months at or above poverty level: Male: 12 to 14 years
+        AS6WE037:    Income in the past 12 months at or above poverty level: Male: 15 years
+        AS6WE038:    Income in the past 12 months at or above poverty level: Male: 16 and 17 years
+        AS6WE039:    Income in the past 12 months at or above poverty level: Male: 18 to 24 years
+        AS6WE040:    Income in the past 12 months at or above poverty level: Male: 25 to 34 years
+        AS6WE041:    Income in the past 12 months at or above poverty level: Male: 35 to 44 years
+        AS6WE042:    Income in the past 12 months at or above poverty level: Male: 45 to 54 years
+        AS6WE043:    Income in the past 12 months at or above poverty level: Male: 55 to 64 years
+        AS6WE044:    Income in the past 12 months at or above poverty level: Male: 65 to 74 years
+        AS6WE045:    Income in the past 12 months at or above poverty level: Male: 75 years and over
+        AS6WE046:    Income in the past 12 months at or above poverty level: Female
+        AS6WE047:    Income in the past 12 months at or above poverty level: Female: Under 5 years
+        AS6WE048:    Income in the past 12 months at or above poverty level: Female: 5 years
+        AS6WE049:    Income in the past 12 months at or above poverty level: Female: 6 to 11 years
+        AS6WE050:    Income in the past 12 months at or above poverty level: Female: 12 to 14 years
+        AS6WE051:    Income in the past 12 months at or above poverty level: Female: 15 years
+        AS6WE052:    Income in the past 12 months at or above poverty level: Female: 16 and 17 years
+        AS6WE053:    Income in the past 12 months at or above poverty level: Female: 18 to 24 years
+        AS6WE054:    Income in the past 12 months at or above poverty level: Female: 25 to 34 years
+        AS6WE055:    Income in the past 12 months at or above poverty level: Female: 35 to 44 years
+        AS6WE056:    Income in the past 12 months at or above poverty level: Female: 45 to 54 years
+        AS6WE057:    Income in the past 12 months at or above poverty level: Female: 55 to 64 years
+        AS6WE058:    Income in the past 12 months at or above poverty level: Female: 65 to 74 years
+        AS6WE059:    Income in the past 12 months at or above poverty level: Female: 75 years and over
+ 
+    Table 3:     Sex by Age by Disability Status
+    Universe:    Civilian noninstitutionalized population
+    Source code: B18101
+    NHGIS code:  AS78
+        AS78E001:    Total
+        AS78E002:    Male
+        AS78E003:    Male: Under 5 years
+        AS78E004:    Male: Under 5 years: With a disability
+        AS78E005:    Male: Under 5 years: No disability
+        AS78E006:    Male: 5 to 17 years
+        AS78E007:    Male: 5 to 17 years: With a disability
+        AS78E008:    Male: 5 to 17 years: No disability
+        AS78E009:    Male: 18 to 34 years
+        AS78E010:    Male: 18 to 34 years: With a disability
+        AS78E011:    Male: 18 to 34 years: No disability
+        AS78E012:    Male: 35 to 64 years
+        AS78E013:    Male: 35 to 64 years: With a disability
+        AS78E014:    Male: 35 to 64 years: No disability
+        AS78E015:    Male: 65 to 74 years
+        AS78E016:    Male: 65 to 74 years: With a disability
+        AS78E017:    Male: 65 to 74 years: No disability
+        AS78E018:    Male: 75 years and over
+        AS78E019:    Male: 75 years and over: With a disability
+        AS78E020:    Male: 75 years and over: No disability
+        AS78E021:    Female
+        AS78E022:    Female: Under 5 years
+        AS78E023:    Female: Under 5 years: With a disability
+        AS78E024:    Female: Under 5 years: No disability
+        AS78E025:    Female: 5 to 17 years
+        AS78E026:    Female: 5 to 17 years: With a disability
+        AS78E027:    Female: 5 to 17 years: No disability
+        AS78E028:    Female: 18 to 34 years
+        AS78E029:    Female: 18 to 34 years: With a disability
+        AS78E030:    Female: 18 to 34 years: No disability
+        AS78E031:    Female: 35 to 64 years
+        AS78E032:    Female: 35 to 64 years: With a disability
+        AS78E033:    Female: 35 to 64 years: No disability
+        AS78E034:    Female: 65 to 74 years
+        AS78E035:    Female: 65 to 74 years: With a disability
+        AS78E036:    Female: 65 to 74 years: No disability
+        AS78E037:    Female: 75 years and over
+        AS78E038:    Female: 75 years and over: With a disability
+        AS78E039:    Female: 75 years and over: No disability
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Household Size by Vehicles Available
+    Universe:    Households
+    Source code: B08201
+    NHGIS code:  AS3P
+        AS3PM001:    Total
+        AS3PM002:    No vehicle available
+        AS3PM003:    1 vehicle available
+        AS3PM004:    2 vehicles available
+        AS3PM005:    3 vehicles available
+        AS3PM006:    4 or more vehicles available
+        AS3PM007:    1-person household
+        AS3PM008:    1-person household: No vehicle available
+        AS3PM009:    1-person household: 1 vehicle available
+        AS3PM010:    1-person household: 2 vehicles available
+        AS3PM011:    1-person household: 3 vehicles available
+        AS3PM012:    1-person household: 4 or more vehicles available
+        AS3PM013:    2-person household
+        AS3PM014:    2-person household: No vehicle available
+        AS3PM015:    2-person household: 1 vehicle available
+        AS3PM016:    2-person household: 2 vehicles available
+        AS3PM017:    2-person household: 3 vehicles available
+        AS3PM018:    2-person household: 4 or more vehicles available
+        AS3PM019:    3-person household
+        AS3PM020:    3-person household: No vehicle available
+        AS3PM021:    3-person household: 1 vehicle available
+        AS3PM022:    3-person household: 2 vehicles available
+        AS3PM023:    3-person household: 3 vehicles available
+        AS3PM024:    3-person household: 4 or more vehicles available
+        AS3PM025:    4-or-more-person household
+        AS3PM026:    4-or-more-person household: No vehicle available
+        AS3PM027:    4-or-more-person household: 1 vehicle available
+        AS3PM028:    4-or-more-person household: 2 vehicles available
+        AS3PM029:    4-or-more-person household: 3 vehicles available
+        AS3PM030:    4-or-more-person household: 4 or more vehicles available
+ 
+    Table 2:     Poverty Status in the Past 12 Months by Sex by Age
+    Universe:    Population for whom poverty status is determined
+    Source code: B17001
+    NHGIS code:  AS6W
+        AS6WM001:    Total
+        AS6WM002:    Income in the past 12 months below poverty level
+        AS6WM003:    Income in the past 12 months below poverty level: Male
+        AS6WM004:    Income in the past 12 months below poverty level: Male: Under 5 years
+        AS6WM005:    Income in the past 12 months below poverty level: Male: 5 years
+        AS6WM006:    Income in the past 12 months below poverty level: Male: 6 to 11 years
+        AS6WM007:    Income in the past 12 months below poverty level: Male: 12 to 14 years
+        AS6WM008:    Income in the past 12 months below poverty level: Male: 15 years
+        AS6WM009:    Income in the past 12 months below poverty level: Male: 16 and 17 years
+        AS6WM010:    Income in the past 12 months below poverty level: Male: 18 to 24 years
+        AS6WM011:    Income in the past 12 months below poverty level: Male: 25 to 34 years
+        AS6WM012:    Income in the past 12 months below poverty level: Male: 35 to 44 years
+        AS6WM013:    Income in the past 12 months below poverty level: Male: 45 to 54 years
+        AS6WM014:    Income in the past 12 months below poverty level: Male: 55 to 64 years
+        AS6WM015:    Income in the past 12 months below poverty level: Male: 65 to 74 years
+        AS6WM016:    Income in the past 12 months below poverty level: Male: 75 years and over
+        AS6WM017:    Income in the past 12 months below poverty level: Female
+        AS6WM018:    Income in the past 12 months below poverty level: Female: Under 5 years
+        AS6WM019:    Income in the past 12 months below poverty level: Female: 5 years
+        AS6WM020:    Income in the past 12 months below poverty level: Female: 6 to 11 years
+        AS6WM021:    Income in the past 12 months below poverty level: Female: 12 to 14 years
+        AS6WM022:    Income in the past 12 months below poverty level: Female: 15 years
+        AS6WM023:    Income in the past 12 months below poverty level: Female: 16 and 17 years
+        AS6WM024:    Income in the past 12 months below poverty level: Female: 18 to 24 years
+        AS6WM025:    Income in the past 12 months below poverty level: Female: 25 to 34 years
+        AS6WM026:    Income in the past 12 months below poverty level: Female: 35 to 44 years
+        AS6WM027:    Income in the past 12 months below poverty level: Female: 45 to 54 years
+        AS6WM028:    Income in the past 12 months below poverty level: Female: 55 to 64 years
+        AS6WM029:    Income in the past 12 months below poverty level: Female: 65 to 74 years
+        AS6WM030:    Income in the past 12 months below poverty level: Female: 75 years and over
+        AS6WM031:    Income in the past 12 months at or above poverty level
+        AS6WM032:    Income in the past 12 months at or above poverty level: Male
+        AS6WM033:    Income in the past 12 months at or above poverty level: Male: Under 5 years
+        AS6WM034:    Income in the past 12 months at or above poverty level: Male: 5 years
+        AS6WM035:    Income in the past 12 months at or above poverty level: Male: 6 to 11 years
+        AS6WM036:    Income in the past 12 months at or above poverty level: Male: 12 to 14 years
+        AS6WM037:    Income in the past 12 months at or above poverty level: Male: 15 years
+        AS6WM038:    Income in the past 12 months at or above poverty level: Male: 16 and 17 years
+        AS6WM039:    Income in the past 12 months at or above poverty level: Male: 18 to 24 years
+        AS6WM040:    Income in the past 12 months at or above poverty level: Male: 25 to 34 years
+        AS6WM041:    Income in the past 12 months at or above poverty level: Male: 35 to 44 years
+        AS6WM042:    Income in the past 12 months at or above poverty level: Male: 45 to 54 years
+        AS6WM043:    Income in the past 12 months at or above poverty level: Male: 55 to 64 years
+        AS6WM044:    Income in the past 12 months at or above poverty level: Male: 65 to 74 years
+        AS6WM045:    Income in the past 12 months at or above poverty level: Male: 75 years and over
+        AS6WM046:    Income in the past 12 months at or above poverty level: Female
+        AS6WM047:    Income in the past 12 months at or above poverty level: Female: Under 5 years
+        AS6WM048:    Income in the past 12 months at or above poverty level: Female: 5 years
+        AS6WM049:    Income in the past 12 months at or above poverty level: Female: 6 to 11 years
+        AS6WM050:    Income in the past 12 months at or above poverty level: Female: 12 to 14 years
+        AS6WM051:    Income in the past 12 months at or above poverty level: Female: 15 years
+        AS6WM052:    Income in the past 12 months at or above poverty level: Female: 16 and 17 years
+        AS6WM053:    Income in the past 12 months at or above poverty level: Female: 18 to 24 years
+        AS6WM054:    Income in the past 12 months at or above poverty level: Female: 25 to 34 years
+        AS6WM055:    Income in the past 12 months at or above poverty level: Female: 35 to 44 years
+        AS6WM056:    Income in the past 12 months at or above poverty level: Female: 45 to 54 years
+        AS6WM057:    Income in the past 12 months at or above poverty level: Female: 55 to 64 years
+        AS6WM058:    Income in the past 12 months at or above poverty level: Female: 65 to 74 years
+        AS6WM059:    Income in the past 12 months at or above poverty level: Female: 75 years and over
+ 
+    Table 3:     Sex by Age by Disability Status
+    Universe:    Civilian noninstitutionalized population
+    Source code: B18101
+    NHGIS code:  AS78
+        AS78M001:    Total
+        AS78M002:    Male
+        AS78M003:    Male: Under 5 years
+        AS78M004:    Male: Under 5 years: With a disability
+        AS78M005:    Male: Under 5 years: No disability
+        AS78M006:    Male: 5 to 17 years
+        AS78M007:    Male: 5 to 17 years: With a disability
+        AS78M008:    Male: 5 to 17 years: No disability
+        AS78M009:    Male: 18 to 34 years
+        AS78M010:    Male: 18 to 34 years: With a disability
+        AS78M011:    Male: 18 to 34 years: No disability
+        AS78M012:    Male: 35 to 64 years
+        AS78M013:    Male: 35 to 64 years: With a disability
+        AS78M014:    Male: 35 to 64 years: No disability
+        AS78M015:    Male: 65 to 74 years
+        AS78M016:    Male: 65 to 74 years: With a disability
+        AS78M017:    Male: 65 to 74 years: No disability
+        AS78M018:    Male: 75 years and over
+        AS78M019:    Male: 75 years and over: With a disability
+        AS78M020:    Male: 75 years and over: No disability
+        AS78M021:    Female
+        AS78M022:    Female: Under 5 years
+        AS78M023:    Female: Under 5 years: With a disability
+        AS78M024:    Female: Under 5 years: No disability
+        AS78M025:    Female: 5 to 17 years
+        AS78M026:    Female: 5 to 17 years: With a disability
+        AS78M027:    Female: 5 to 17 years: No disability
+        AS78M028:    Female: 18 to 34 years
+        AS78M029:    Female: 18 to 34 years: With a disability
+        AS78M030:    Female: 18 to 34 years: No disability
+        AS78M031:    Female: 35 to 64 years
+        AS78M032:    Female: 35 to 64 years: With a disability
+        AS78M033:    Female: 35 to 64 years: No disability
+        AS78M034:    Female: 65 to 74 years
+        AS78M035:    Female: 65 to 74 years: With a disability
+        AS78M036:    Female: 65 to 74 years: No disability
+        AS78M037:    Female: 75 years and over
+        AS78M038:    Female: 75 years and over: With a disability
+        AS78M039:    Female: 75 years and over: No disability
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Jonathan Schroeder, David Van Riper, Steven Manson, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 20.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2025. 
+        http://doi.org/10.18128/D050.V20.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

@@ -1,0 +1,620 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0008_ds267_20235_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2019-2023
+Geographic level: Census Tract (by State--County)
+Extent:           New York
+Dataset:          2023 American Community Survey: 5-Year Data [2019-2023, Block Groups & Larger Areas]
+   NHGIS code:    2019_2023_ACS5a
+   NHGIS ID:      ds267
+Breakdown(s):     Geographic Component:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Sex by Age
+   Universe:    Total population
+   Source code: B01001
+   NHGIS code:  ASNQ
+ 
+2. Household Type (Including Living Alone)
+   Universe:    Households
+   Source code: B11001
+   NHGIS code:  ASOW
+ 
+3. Households by Type
+   Universe:    Households
+   Source code: B11012
+   NHGIS code:  ASPM
+ 
+4. Sex by Marital Status for the Population 15 Years and Over
+   Universe:    Population 15 years and over
+   Source code: B12001
+   NHGIS code:  ASPP
+ 
+5. Household Language by Household Limited English Speaking Status
+   Universe:    Households
+   Source code: C16002
+   NHGIS code:  ASQG
+ 
+6. Age by Language Spoken at Home by Ability to Speak English for the Population 5 Years and Over
+   Universe:    Population 5 years and over
+   Source code: B16004
+   NHGIS code:  ASQH
+ 
+7. Ratio of Income to Poverty Level in the Past 12 Months
+   Universe:    Population for whom poverty status is determined
+   Source code: C17002
+   NHGIS code:  ASQI
+ 
+8. Median Household Income in the Past 12 Months (in 2023 Inflation-Adjusted Dollars)
+   Universe:    Households
+   Source code: B19013
+   NHGIS code:  ASQP
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place/Remainder Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian/Hawaiian Home Land Trust Land Indicator
+        AITSA:       Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        CNECTA:      New England City and Town Combined Statistical Area
+        NECTADIV:    New England City and Town Area Division
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2023-2025, 118th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEO_ID:      Census Geographic Area Identifier
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+        TL_GEO_ID:   TIGER/Line Shapefile Geographic Area Identifier
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Sex by Age
+    Universe:    Total population
+    Source code: B01001
+    NHGIS code:  ASNQ
+        ASNQE001:    Total
+        ASNQE002:    Male
+        ASNQE003:    Male: Under 5 years
+        ASNQE004:    Male: 5 to 9 years
+        ASNQE005:    Male: 10 to 14 years
+        ASNQE006:    Male: 15 to 17 years
+        ASNQE007:    Male: 18 and 19 years
+        ASNQE008:    Male: 20 years
+        ASNQE009:    Male: 21 years
+        ASNQE010:    Male: 22 to 24 years
+        ASNQE011:    Male: 25 to 29 years
+        ASNQE012:    Male: 30 to 34 years
+        ASNQE013:    Male: 35 to 39 years
+        ASNQE014:    Male: 40 to 44 years
+        ASNQE015:    Male: 45 to 49 years
+        ASNQE016:    Male: 50 to 54 years
+        ASNQE017:    Male: 55 to 59 years
+        ASNQE018:    Male: 60 and 61 years
+        ASNQE019:    Male: 62 to 64 years
+        ASNQE020:    Male: 65 and 66 years
+        ASNQE021:    Male: 67 to 69 years
+        ASNQE022:    Male: 70 to 74 years
+        ASNQE023:    Male: 75 to 79 years
+        ASNQE024:    Male: 80 to 84 years
+        ASNQE025:    Male: 85 years and over
+        ASNQE026:    Female
+        ASNQE027:    Female: Under 5 years
+        ASNQE028:    Female: 5 to 9 years
+        ASNQE029:    Female: 10 to 14 years
+        ASNQE030:    Female: 15 to 17 years
+        ASNQE031:    Female: 18 and 19 years
+        ASNQE032:    Female: 20 years
+        ASNQE033:    Female: 21 years
+        ASNQE034:    Female: 22 to 24 years
+        ASNQE035:    Female: 25 to 29 years
+        ASNQE036:    Female: 30 to 34 years
+        ASNQE037:    Female: 35 to 39 years
+        ASNQE038:    Female: 40 to 44 years
+        ASNQE039:    Female: 45 to 49 years
+        ASNQE040:    Female: 50 to 54 years
+        ASNQE041:    Female: 55 to 59 years
+        ASNQE042:    Female: 60 and 61 years
+        ASNQE043:    Female: 62 to 64 years
+        ASNQE044:    Female: 65 and 66 years
+        ASNQE045:    Female: 67 to 69 years
+        ASNQE046:    Female: 70 to 74 years
+        ASNQE047:    Female: 75 to 79 years
+        ASNQE048:    Female: 80 to 84 years
+        ASNQE049:    Female: 85 years and over
+ 
+    Table 2:     Household Type (Including Living Alone)
+    Universe:    Households
+    Source code: B11001
+    NHGIS code:  ASOW
+        ASOWE001:    Total
+        ASOWE002:    Family households
+        ASOWE003:    Family households: Married-couple family
+        ASOWE004:    Family households: Other family
+        ASOWE005:    Family households: Other family: Male householder, no spouse present
+        ASOWE006:    Family households: Other family: Female householder, no spouse present
+        ASOWE007:    Nonfamily households
+        ASOWE008:    Nonfamily households: Householder living alone
+        ASOWE009:    Nonfamily households: Householder not living alone
+ 
+    Table 3:     Households by Type
+    Universe:    Households
+    Source code: B11012
+    NHGIS code:  ASPM
+        ASPME001:    Total
+        ASPME002:    Married-couple household
+        ASPME003:    Married-couple household: With children of the householder under 18 years
+        ASPME004:    Married-couple household: With no children of the householder under 18 years
+        ASPME005:    Cohabiting couple household
+        ASPME006:    Cohabiting couple household: With children of the householder under 18 years
+        ASPME007:    Cohabiting couple household: With no children of the householder under 18 years
+        ASPME008:    Female householder, no spouse or partner present
+        ASPME009:    Female householder, no spouse or partner present: Living alone
+        ASPME010:    Female householder, no spouse or partner present: With children of the householder under 18 years
+        ASPME011:    Female householder, no spouse or partner present: With relatives, no children of the householder under 18 years
+        ASPME012:    Female householder, no spouse or partner present: With only nonrelatives present
+        ASPME013:    Male householder, no spouse or partner present
+        ASPME014:    Male householder, no spouse or partner present: Living alone
+        ASPME015:    Male householder, no spouse or partner present: With children of the householder under 18 years
+        ASPME016:    Male householder, no spouse or partner present: With relatives, no children of the householder under 18 years
+        ASPME017:    Male householder, no spouse or partner present: With only nonrelatives present
+ 
+    Table 4:     Sex by Marital Status for the Population 15 Years and Over
+    Universe:    Population 15 years and over
+    Source code: B12001
+    NHGIS code:  ASPP
+        ASPPE001:    Total
+        ASPPE002:    Male
+        ASPPE003:    Male: Never married
+        ASPPE004:    Male: Now married
+        ASPPE005:    Male: Now married: Married, spouse present
+        ASPPE006:    Male: Now married: Married, spouse absent
+        ASPPE007:    Male: Now married: Married, spouse absent: Separated
+        ASPPE008:    Male: Now married: Married, spouse absent: Other
+        ASPPE009:    Male: Widowed
+        ASPPE010:    Male: Divorced
+        ASPPE011:    Female
+        ASPPE012:    Female: Never married
+        ASPPE013:    Female: Now married
+        ASPPE014:    Female: Now married: Married, spouse present
+        ASPPE015:    Female: Now married: Married, spouse absent
+        ASPPE016:    Female: Now married: Married, spouse absent: Separated
+        ASPPE017:    Female: Now married: Married, spouse absent: Other
+        ASPPE018:    Female: Widowed
+        ASPPE019:    Female: Divorced
+ 
+    Table 5:     Household Language by Household Limited English Speaking Status
+    Universe:    Households
+    Source code: C16002
+    NHGIS code:  ASQG
+        ASQGE001:    Total
+        ASQGE002:    English only
+        ASQGE003:    Spanish
+        ASQGE004:    Spanish: Limited English speaking household
+        ASQGE005:    Spanish: Not a limited English speaking household
+        ASQGE006:    Other Indo-European languages
+        ASQGE007:    Other Indo-European languages: Limited English speaking household
+        ASQGE008:    Other Indo-European languages: Not a limited English speaking household
+        ASQGE009:    Asian and Pacific Island languages
+        ASQGE010:    Asian and Pacific Island languages: Limited English speaking household
+        ASQGE011:    Asian and Pacific Island languages: Not a limited English speaking household
+        ASQGE012:    Other languages
+        ASQGE013:    Other languages: Limited English speaking household
+        ASQGE014:    Other languages: Not a limited English speaking household
+ 
+    Table 6:     Age by Language Spoken at Home by Ability to Speak English for the Population 5 Years and Over
+    Universe:    Population 5 years and over
+    Source code: B16004
+    NHGIS code:  ASQH
+        ASQHE001:    Total
+        ASQHE002:    5 to 17 years
+        ASQHE003:    5 to 17 years: Speak only English
+        ASQHE004:    5 to 17 years: Speak Spanish
+        ASQHE005:    5 to 17 years: Speak Spanish: Speak English 'very well'
+        ASQHE006:    5 to 17 years: Speak Spanish: Speak English 'well'
+        ASQHE007:    5 to 17 years: Speak Spanish: Speak English 'not well'
+        ASQHE008:    5 to 17 years: Speak Spanish: Speak English 'not at all'
+        ASQHE009:    5 to 17 years: Speak other Indo-European languages
+        ASQHE010:    5 to 17 years: Speak other Indo-European languages: Speak English 'very well'
+        ASQHE011:    5 to 17 years: Speak other Indo-European languages: Speak English 'well'
+        ASQHE012:    5 to 17 years: Speak other Indo-European languages: Speak English 'not well'
+        ASQHE013:    5 to 17 years: Speak other Indo-European languages: Speak English 'not at all'
+        ASQHE014:    5 to 17 years: Speak Asian and Pacific Island languages
+        ASQHE015:    5 to 17 years: Speak Asian and Pacific Island languages: Speak English 'very well'
+        ASQHE016:    5 to 17 years: Speak Asian and Pacific Island languages: Speak English 'well'
+        ASQHE017:    5 to 17 years: Speak Asian and Pacific Island languages: Speak English 'not well'
+        ASQHE018:    5 to 17 years: Speak Asian and Pacific Island languages: Speak English 'not at all'
+        ASQHE019:    5 to 17 years: Speak other languages
+        ASQHE020:    5 to 17 years: Speak other languages: Speak English 'very well'
+        ASQHE021:    5 to 17 years: Speak other languages: Speak English 'well'
+        ASQHE022:    5 to 17 years: Speak other languages: Speak English 'not well'
+        ASQHE023:    5 to 17 years: Speak other languages: Speak English 'not at all'
+        ASQHE024:    18 to 64 years
+        ASQHE025:    18 to 64 years: Speak only English
+        ASQHE026:    18 to 64 years: Speak Spanish
+        ASQHE027:    18 to 64 years: Speak Spanish: Speak English 'very well'
+        ASQHE028:    18 to 64 years: Speak Spanish: Speak English 'well'
+        ASQHE029:    18 to 64 years: Speak Spanish: Speak English 'not well'
+        ASQHE030:    18 to 64 years: Speak Spanish: Speak English 'not at all'
+        ASQHE031:    18 to 64 years: Speak other Indo-European languages
+        ASQHE032:    18 to 64 years: Speak other Indo-European languages: Speak English 'very well'
+        ASQHE033:    18 to 64 years: Speak other Indo-European languages: Speak English 'well'
+        ASQHE034:    18 to 64 years: Speak other Indo-European languages: Speak English 'not well'
+        ASQHE035:    18 to 64 years: Speak other Indo-European languages: Speak English 'not at all'
+        ASQHE036:    18 to 64 years: Speak Asian and Pacific Island languages
+        ASQHE037:    18 to 64 years: Speak Asian and Pacific Island languages: Speak English 'very well'
+        ASQHE038:    18 to 64 years: Speak Asian and Pacific Island languages: Speak English 'well'
+        ASQHE039:    18 to 64 years: Speak Asian and Pacific Island languages: Speak English 'not well'
+        ASQHE040:    18 to 64 years: Speak Asian and Pacific Island languages: Speak English 'not at all'
+        ASQHE041:    18 to 64 years: Speak other languages
+        ASQHE042:    18 to 64 years: Speak other languages: Speak English 'very well'
+        ASQHE043:    18 to 64 years: Speak other languages: Speak English 'well'
+        ASQHE044:    18 to 64 years: Speak other languages: Speak English 'not well'
+        ASQHE045:    18 to 64 years: Speak other languages: Speak English 'not at all'
+        ASQHE046:    65 years and over
+        ASQHE047:    65 years and over: Speak only English
+        ASQHE048:    65 years and over: Speak Spanish
+        ASQHE049:    65 years and over: Speak Spanish: Speak English 'very well'
+        ASQHE050:    65 years and over: Speak Spanish: Speak English 'well'
+        ASQHE051:    65 years and over: Speak Spanish: Speak English 'not well'
+        ASQHE052:    65 years and over: Speak Spanish: Speak English 'not at all'
+        ASQHE053:    65 years and over: Speak other Indo-European languages
+        ASQHE054:    65 years and over: Speak other Indo-European languages: Speak English 'very well'
+        ASQHE055:    65 years and over: Speak other Indo-European languages: Speak English 'well'
+        ASQHE056:    65 years and over: Speak other Indo-European languages: Speak English 'not well'
+        ASQHE057:    65 years and over: Speak other Indo-European languages: Speak English 'not at all'
+        ASQHE058:    65 years and over: Speak Asian and Pacific Island languages
+        ASQHE059:    65 years and over: Speak Asian and Pacific Island languages: Speak English 'very well'
+        ASQHE060:    65 years and over: Speak Asian and Pacific Island languages: Speak English 'well'
+        ASQHE061:    65 years and over: Speak Asian and Pacific Island languages: Speak English 'not well'
+        ASQHE062:    65 years and over: Speak Asian and Pacific Island languages: Speak English 'not at all'
+        ASQHE063:    65 years and over: Speak other languages
+        ASQHE064:    65 years and over: Speak other languages: Speak English 'very well'
+        ASQHE065:    65 years and over: Speak other languages: Speak English 'well'
+        ASQHE066:    65 years and over: Speak other languages: Speak English 'not well'
+        ASQHE067:    65 years and over: Speak other languages: Speak English 'not at all'
+ 
+    Table 7:     Ratio of Income to Poverty Level in the Past 12 Months
+    Universe:    Population for whom poverty status is determined
+    Source code: C17002
+    NHGIS code:  ASQI
+        ASQIE001:    Total
+        ASQIE002:    Under .50
+        ASQIE003:    .50 to .99
+        ASQIE004:    1.00 to 1.24
+        ASQIE005:    1.25 to 1.49
+        ASQIE006:    1.50 to 1.84
+        ASQIE007:    1.85 to 1.99
+        ASQIE008:    2.00 and over
+ 
+    Table 8:     Median Household Income in the Past 12 Months (in 2023 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  ASQP
+        ASQPE001:    Median household income in the past 12 months (in 2023 inflation-adjusted dollars)
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Sex by Age
+    Universe:    Total population
+    Source code: B01001
+    NHGIS code:  ASNQ
+        ASNQM001:    Total
+        ASNQM002:    Male
+        ASNQM003:    Male: Under 5 years
+        ASNQM004:    Male: 5 to 9 years
+        ASNQM005:    Male: 10 to 14 years
+        ASNQM006:    Male: 15 to 17 years
+        ASNQM007:    Male: 18 and 19 years
+        ASNQM008:    Male: 20 years
+        ASNQM009:    Male: 21 years
+        ASNQM010:    Male: 22 to 24 years
+        ASNQM011:    Male: 25 to 29 years
+        ASNQM012:    Male: 30 to 34 years
+        ASNQM013:    Male: 35 to 39 years
+        ASNQM014:    Male: 40 to 44 years
+        ASNQM015:    Male: 45 to 49 years
+        ASNQM016:    Male: 50 to 54 years
+        ASNQM017:    Male: 55 to 59 years
+        ASNQM018:    Male: 60 and 61 years
+        ASNQM019:    Male: 62 to 64 years
+        ASNQM020:    Male: 65 and 66 years
+        ASNQM021:    Male: 67 to 69 years
+        ASNQM022:    Male: 70 to 74 years
+        ASNQM023:    Male: 75 to 79 years
+        ASNQM024:    Male: 80 to 84 years
+        ASNQM025:    Male: 85 years and over
+        ASNQM026:    Female
+        ASNQM027:    Female: Under 5 years
+        ASNQM028:    Female: 5 to 9 years
+        ASNQM029:    Female: 10 to 14 years
+        ASNQM030:    Female: 15 to 17 years
+        ASNQM031:    Female: 18 and 19 years
+        ASNQM032:    Female: 20 years
+        ASNQM033:    Female: 21 years
+        ASNQM034:    Female: 22 to 24 years
+        ASNQM035:    Female: 25 to 29 years
+        ASNQM036:    Female: 30 to 34 years
+        ASNQM037:    Female: 35 to 39 years
+        ASNQM038:    Female: 40 to 44 years
+        ASNQM039:    Female: 45 to 49 years
+        ASNQM040:    Female: 50 to 54 years
+        ASNQM041:    Female: 55 to 59 years
+        ASNQM042:    Female: 60 and 61 years
+        ASNQM043:    Female: 62 to 64 years
+        ASNQM044:    Female: 65 and 66 years
+        ASNQM045:    Female: 67 to 69 years
+        ASNQM046:    Female: 70 to 74 years
+        ASNQM047:    Female: 75 to 79 years
+        ASNQM048:    Female: 80 to 84 years
+        ASNQM049:    Female: 85 years and over
+ 
+    Table 2:     Household Type (Including Living Alone)
+    Universe:    Households
+    Source code: B11001
+    NHGIS code:  ASOW
+        ASOWM001:    Total
+        ASOWM002:    Family households
+        ASOWM003:    Family households: Married-couple family
+        ASOWM004:    Family households: Other family
+        ASOWM005:    Family households: Other family: Male householder, no spouse present
+        ASOWM006:    Family households: Other family: Female householder, no spouse present
+        ASOWM007:    Nonfamily households
+        ASOWM008:    Nonfamily households: Householder living alone
+        ASOWM009:    Nonfamily households: Householder not living alone
+ 
+    Table 3:     Households by Type
+    Universe:    Households
+    Source code: B11012
+    NHGIS code:  ASPM
+        ASPMM001:    Total
+        ASPMM002:    Married-couple household
+        ASPMM003:    Married-couple household: With children of the householder under 18 years
+        ASPMM004:    Married-couple household: With no children of the householder under 18 years
+        ASPMM005:    Cohabiting couple household
+        ASPMM006:    Cohabiting couple household: With children of the householder under 18 years
+        ASPMM007:    Cohabiting couple household: With no children of the householder under 18 years
+        ASPMM008:    Female householder, no spouse or partner present
+        ASPMM009:    Female householder, no spouse or partner present: Living alone
+        ASPMM010:    Female householder, no spouse or partner present: With children of the householder under 18 years
+        ASPMM011:    Female householder, no spouse or partner present: With relatives, no children of the householder under 18 years
+        ASPMM012:    Female householder, no spouse or partner present: With only nonrelatives present
+        ASPMM013:    Male householder, no spouse or partner present
+        ASPMM014:    Male householder, no spouse or partner present: Living alone
+        ASPMM015:    Male householder, no spouse or partner present: With children of the householder under 18 years
+        ASPMM016:    Male householder, no spouse or partner present: With relatives, no children of the householder under 18 years
+        ASPMM017:    Male householder, no spouse or partner present: With only nonrelatives present
+ 
+    Table 4:     Sex by Marital Status for the Population 15 Years and Over
+    Universe:    Population 15 years and over
+    Source code: B12001
+    NHGIS code:  ASPP
+        ASPPM001:    Total
+        ASPPM002:    Male
+        ASPPM003:    Male: Never married
+        ASPPM004:    Male: Now married
+        ASPPM005:    Male: Now married: Married, spouse present
+        ASPPM006:    Male: Now married: Married, spouse absent
+        ASPPM007:    Male: Now married: Married, spouse absent: Separated
+        ASPPM008:    Male: Now married: Married, spouse absent: Other
+        ASPPM009:    Male: Widowed
+        ASPPM010:    Male: Divorced
+        ASPPM011:    Female
+        ASPPM012:    Female: Never married
+        ASPPM013:    Female: Now married
+        ASPPM014:    Female: Now married: Married, spouse present
+        ASPPM015:    Female: Now married: Married, spouse absent
+        ASPPM016:    Female: Now married: Married, spouse absent: Separated
+        ASPPM017:    Female: Now married: Married, spouse absent: Other
+        ASPPM018:    Female: Widowed
+        ASPPM019:    Female: Divorced
+ 
+    Table 5:     Household Language by Household Limited English Speaking Status
+    Universe:    Households
+    Source code: C16002
+    NHGIS code:  ASQG
+        ASQGM001:    Total
+        ASQGM002:    English only
+        ASQGM003:    Spanish
+        ASQGM004:    Spanish: Limited English speaking household
+        ASQGM005:    Spanish: Not a limited English speaking household
+        ASQGM006:    Other Indo-European languages
+        ASQGM007:    Other Indo-European languages: Limited English speaking household
+        ASQGM008:    Other Indo-European languages: Not a limited English speaking household
+        ASQGM009:    Asian and Pacific Island languages
+        ASQGM010:    Asian and Pacific Island languages: Limited English speaking household
+        ASQGM011:    Asian and Pacific Island languages: Not a limited English speaking household
+        ASQGM012:    Other languages
+        ASQGM013:    Other languages: Limited English speaking household
+        ASQGM014:    Other languages: Not a limited English speaking household
+ 
+    Table 6:     Age by Language Spoken at Home by Ability to Speak English for the Population 5 Years and Over
+    Universe:    Population 5 years and over
+    Source code: B16004
+    NHGIS code:  ASQH
+        ASQHM001:    Total
+        ASQHM002:    5 to 17 years
+        ASQHM003:    5 to 17 years: Speak only English
+        ASQHM004:    5 to 17 years: Speak Spanish
+        ASQHM005:    5 to 17 years: Speak Spanish: Speak English 'very well'
+        ASQHM006:    5 to 17 years: Speak Spanish: Speak English 'well'
+        ASQHM007:    5 to 17 years: Speak Spanish: Speak English 'not well'
+        ASQHM008:    5 to 17 years: Speak Spanish: Speak English 'not at all'
+        ASQHM009:    5 to 17 years: Speak other Indo-European languages
+        ASQHM010:    5 to 17 years: Speak other Indo-European languages: Speak English 'very well'
+        ASQHM011:    5 to 17 years: Speak other Indo-European languages: Speak English 'well'
+        ASQHM012:    5 to 17 years: Speak other Indo-European languages: Speak English 'not well'
+        ASQHM013:    5 to 17 years: Speak other Indo-European languages: Speak English 'not at all'
+        ASQHM014:    5 to 17 years: Speak Asian and Pacific Island languages
+        ASQHM015:    5 to 17 years: Speak Asian and Pacific Island languages: Speak English 'very well'
+        ASQHM016:    5 to 17 years: Speak Asian and Pacific Island languages: Speak English 'well'
+        ASQHM017:    5 to 17 years: Speak Asian and Pacific Island languages: Speak English 'not well'
+        ASQHM018:    5 to 17 years: Speak Asian and Pacific Island languages: Speak English 'not at all'
+        ASQHM019:    5 to 17 years: Speak other languages
+        ASQHM020:    5 to 17 years: Speak other languages: Speak English 'very well'
+        ASQHM021:    5 to 17 years: Speak other languages: Speak English 'well'
+        ASQHM022:    5 to 17 years: Speak other languages: Speak English 'not well'
+        ASQHM023:    5 to 17 years: Speak other languages: Speak English 'not at all'
+        ASQHM024:    18 to 64 years
+        ASQHM025:    18 to 64 years: Speak only English
+        ASQHM026:    18 to 64 years: Speak Spanish
+        ASQHM027:    18 to 64 years: Speak Spanish: Speak English 'very well'
+        ASQHM028:    18 to 64 years: Speak Spanish: Speak English 'well'
+        ASQHM029:    18 to 64 years: Speak Spanish: Speak English 'not well'
+        ASQHM030:    18 to 64 years: Speak Spanish: Speak English 'not at all'
+        ASQHM031:    18 to 64 years: Speak other Indo-European languages
+        ASQHM032:    18 to 64 years: Speak other Indo-European languages: Speak English 'very well'
+        ASQHM033:    18 to 64 years: Speak other Indo-European languages: Speak English 'well'
+        ASQHM034:    18 to 64 years: Speak other Indo-European languages: Speak English 'not well'
+        ASQHM035:    18 to 64 years: Speak other Indo-European languages: Speak English 'not at all'
+        ASQHM036:    18 to 64 years: Speak Asian and Pacific Island languages
+        ASQHM037:    18 to 64 years: Speak Asian and Pacific Island languages: Speak English 'very well'
+        ASQHM038:    18 to 64 years: Speak Asian and Pacific Island languages: Speak English 'well'
+        ASQHM039:    18 to 64 years: Speak Asian and Pacific Island languages: Speak English 'not well'
+        ASQHM040:    18 to 64 years: Speak Asian and Pacific Island languages: Speak English 'not at all'
+        ASQHM041:    18 to 64 years: Speak other languages
+        ASQHM042:    18 to 64 years: Speak other languages: Speak English 'very well'
+        ASQHM043:    18 to 64 years: Speak other languages: Speak English 'well'
+        ASQHM044:    18 to 64 years: Speak other languages: Speak English 'not well'
+        ASQHM045:    18 to 64 years: Speak other languages: Speak English 'not at all'
+        ASQHM046:    65 years and over
+        ASQHM047:    65 years and over: Speak only English
+        ASQHM048:    65 years and over: Speak Spanish
+        ASQHM049:    65 years and over: Speak Spanish: Speak English 'very well'
+        ASQHM050:    65 years and over: Speak Spanish: Speak English 'well'
+        ASQHM051:    65 years and over: Speak Spanish: Speak English 'not well'
+        ASQHM052:    65 years and over: Speak Spanish: Speak English 'not at all'
+        ASQHM053:    65 years and over: Speak other Indo-European languages
+        ASQHM054:    65 years and over: Speak other Indo-European languages: Speak English 'very well'
+        ASQHM055:    65 years and over: Speak other Indo-European languages: Speak English 'well'
+        ASQHM056:    65 years and over: Speak other Indo-European languages: Speak English 'not well'
+        ASQHM057:    65 years and over: Speak other Indo-European languages: Speak English 'not at all'
+        ASQHM058:    65 years and over: Speak Asian and Pacific Island languages
+        ASQHM059:    65 years and over: Speak Asian and Pacific Island languages: Speak English 'very well'
+        ASQHM060:    65 years and over: Speak Asian and Pacific Island languages: Speak English 'well'
+        ASQHM061:    65 years and over: Speak Asian and Pacific Island languages: Speak English 'not well'
+        ASQHM062:    65 years and over: Speak Asian and Pacific Island languages: Speak English 'not at all'
+        ASQHM063:    65 years and over: Speak other languages
+        ASQHM064:    65 years and over: Speak other languages: Speak English 'very well'
+        ASQHM065:    65 years and over: Speak other languages: Speak English 'well'
+        ASQHM066:    65 years and over: Speak other languages: Speak English 'not well'
+        ASQHM067:    65 years and over: Speak other languages: Speak English 'not at all'
+ 
+    Table 7:     Ratio of Income to Poverty Level in the Past 12 Months
+    Universe:    Population for whom poverty status is determined
+    Source code: C17002
+    NHGIS code:  ASQI
+        ASQIM001:    Total
+        ASQIM002:    Under .50
+        ASQIM003:    .50 to .99
+        ASQIM004:    1.00 to 1.24
+        ASQIM005:    1.25 to 1.49
+        ASQIM006:    1.50 to 1.84
+        ASQIM007:    1.85 to 1.99
+        ASQIM008:    2.00 and over
+ 
+    Table 8:     Median Household Income in the Past 12 Months (in 2023 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  ASQP
+        ASQPM001:    Median household income in the past 12 months (in 2023 inflation-adjusted dollars)
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Jonathan Schroeder, David Van Riper, Steven Manson, Katherine Knowles, Tracy Kugler, Finn Roberts, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 20.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2025. 
+        http://doi.org/10.18128/D050.V20.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
