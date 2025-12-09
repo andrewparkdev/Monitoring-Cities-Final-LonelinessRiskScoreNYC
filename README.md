@@ -23,21 +23,21 @@ Multi-Hazard Social Isolation Risk assessment for NYC's aging population (ACS 20
 Census demographics → Baseline social isolation (6 factors)
 
 ```
-LCS = 0.30×Living_Alone + 0.20×Disability + 0.15×Marital_Status
-    + 0.15×No_Vehicle + 0.10×Limited_English + 0.10×Poverty
+LCS = (Living_Alone + Disability + Marital_Status
+    + No_Vehicle + Limited_English + Poverty)×1/6
 ```
 
 ### Tier 2: Environmental Stressors (ES)
 Satellite data → 4 factors for Summer & Winter
 
 ```
-ES = 0.25×Temperature + 0.25×Air_Quality + 0.25×Vegetation_Lack + 0.25×Light_Pollution
+ES = (Temperature + Air_Quality + Vegetation_Lack + Light_Pollution)×1/4
 ```
 
 ### Output: Loneliness Risk Score (LRS)
 
 ```
-LRS = 0.50×LCS + 0.50×ES
+LRS = (LCS + ES)×1/2
 ```
 
 ## Results
